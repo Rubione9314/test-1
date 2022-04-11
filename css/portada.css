@@ -46,7 +46,7 @@ background-color: firebrick;
 
 }
 /*termino de menu pagina web*/
-
+/* titulo */
 #principal
 {   
     color: darkgoldenrod;
@@ -80,4 +80,40 @@ background-color: firebrick;
 color: burlywood;
 
 }
+/* fin titulo titulo */
+
+.carrusel img 
+{
+    block-size: 2000px;
+
+
+
+
+ 
+
+}
+.carrusel1 img 
+{
+    block-size: 2000px;
+
+
+
+
+ 
+
+}
+.carrusel2 img 
+{
+    block-size: 2000px;
+
+
+
+
+ 
+
+}
+
+
+/* comienzo carrusel */
+
 
