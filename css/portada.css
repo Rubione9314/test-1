@@ -12,16 +12,17 @@
     
 }
 /* fin pagina principal*/
+
 /* menu de pagina web  */
 #menu ul
 {
-background-color:sandybrown;
+background-color:rgb(26, 61, 114);
 
 }
 #menu
 {
   list-style: none;
-  margin: 0;
+  margin:  0;
   padding: 0;
 }
 #menu ul li
@@ -33,7 +34,7 @@ background-color:sandybrown;
 {
 display: block;    
 color: beige;
-padding: 10px 50px;
+padding: 30px 30px;
 text-decoration: none;
 }
 
@@ -46,6 +47,15 @@ background-color: firebrick;
 
 }
 /*termino de menu pagina web*/
+/* artista*/
+
+.artista p input
+{
+display: inline-block;
+}
+
+/* artista*/
+
 /* titulo */
 #principal
 {   
@@ -61,7 +71,7 @@ background-color: firebrick;
 .LogoZero
 {
     
-    background-color: rgb(4, 44, 71);
+    background-color: rgb(26, 61, 114);
     line-height: normal;
     margin: 10px 15px 5px 15px;
     border: 1px  solid ;
@@ -81,39 +91,66 @@ color: burlywood;
 
 }
 /* fin titulo titulo */
-
-.carrusel img 
-{
-    block-size: 2000px;
+/* buscador */
 
 
 
-
- 
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-.carrusel1 img 
-{
-    block-size: 2000px;
 
-
-
-
- 
-
+input {
+	font:inherit;
 }
-.carrusel2 img 
-{
-    block-size: 2000px;
-
-
-
-
- 
-
+section {
+	min-height: auto;
+	display: flex;
+	align-items: left;
+}
+form {
+	margin: 20px;
+}
+form > div {
+    float: left;
+	display: flex;
+	background:#fff;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border:2px solid #cad3dc;
+	box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
+		rgba(0, 0, 0, 0.1) 10px 10px 10px,
+		rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
+		rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+}
+form input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	padding-left: 24px;
+	background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 0px;
+	transition: all 1s;
+}
+form input:focus {
+	outline: none;
+	width: 300px;
 }
 
 
 /* comienzo carrusel */
 
+div h3 
+{ color: deepskyblue;
 
+}
+
+.textos
+{ 
+    color: black;
+    font-size: 30px;
+
+}
