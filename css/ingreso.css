@@ -5,7 +5,11 @@
   }
   
   body {
-    background-image: url(Colorido\ arte\ digital_xtrafondos.com.jpg);
+    height: auto;
+    background: center;
+    background-image: url(imagen\ ingreso.jpg);
+    background-color: #24303c;
+    background-repeat: no-repeat;
   }
   
   .form-register {
